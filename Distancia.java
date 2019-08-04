@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Carlos Alvarez 
  * @version 20190803
  */
-public class Eficiencia
+public class Distancia
 {
     public static void main(String[] args)
     {
