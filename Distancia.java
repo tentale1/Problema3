@@ -10,7 +10,7 @@ public class Distancia
 {
     public static void main(String[] args)
     {
-        double t1,g1,t2,g2,dist,sent1,sent2,cost1,cost2,cosg1,arcos,t1rad,g1rad,t2rad,g2rad;
+        double t1,g1,t2,g2,dist,sent1,sent2,cost1,cost2,cosg1,arcos,t1rad,g1rad,t2rad;
         
         Scanner Teclado = new Scanner (System.in);
         
@@ -30,12 +30,11 @@ public class Distancia
         t1rad = Math.toRadians(t1);
         g1rad = Math.toRadians(g1);
         t2rad = Math.toRadians(t2);
-        g2rad = Math.toRadians(g2);
         sent1 = Math.sin(t1rad);
         sent2 = Math.sin(t2rad);
         cost1 = Math.cos(t1rad);
         cost2 = Math.cos(t2rad);
-        cosg1 = Math.cos(g2rad);
+        cosg1 = Math.cos(g1rad);
         arcos = Math.acos(sent1);
         
         //calculo de distancia
